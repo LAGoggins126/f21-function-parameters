@@ -6,5 +6,13 @@ let y = 2;
 let product = x * y;
 console.log(x + " * " + y + " = " + product);
 
+function sum(x, y){
+    let product = x * y;
+    console.log(x + " * " + y + " = " + product);
+}
+
+sum()
+sum(12, 9)
+sum(6, 23)
 // 3) Call your new function below 3 separate times with
 //      different supplied x's and y's
